@@ -19,7 +19,7 @@ const heroLeft = [
     name: "وجبة بروستد ميجا",
     rate: 4.9,
     time: "15 - 25 دقيقة",
-    image: "/hero_char.png",
+    image: "/hero_char.webp",
     price: 212,
   },
   {
@@ -27,7 +27,7 @@ const heroLeft = [
     name: "وجبة بروستد ميجا",
     rate: 4.9,
     time: "15 - 25 دقيقة",
-    image: "/hero_char_2.png",
+    image: "/hero_char_2.webp",
     price: 212,
   },
   {
@@ -35,7 +35,7 @@ const heroLeft = [
     name: "وجبة بروستد ميجا",
     rate: 4.9,
     time: "15 - 25 دقيقة",
-    image: "/hero_char_3.png",
+    image: "/hero_char_3.webp",
     price: 212,
   },
 ];

@@ -27,7 +27,7 @@ const foodItem = {
   calories: "780 سعرة",
   description:
     "قطعتين دجاج مقرمش حار مطهوة بعناية مع صوص الشيدر الذائب، شريحة جبنة ناعمة، خس طازج، وخيار مخلل مقرمش داخل خبز البريوش الذهبي المخبوز يومياً.",
-  image: "/char_maky_2.png",
+  image: "/char_maky_2.webp",
   isSpicy: true,
   isPopular: true,
   basePrice: 185,

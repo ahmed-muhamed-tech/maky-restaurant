@@ -23,7 +23,7 @@ const offersList: Offer[] = [
     originalPrice: 520,
     discountPrice: 365,
     code: "MAKY30",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
     isFlashDeal: true,
   },
   {
@@ -34,7 +34,7 @@ const offersList: Offer[] = [
     originalPrice: 280,
     discountPrice: 230,
     code: "WEEKEND",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const offersList: Offer[] = [
     description: "3 ساندوتش كرانشي تشيكن + 3 بطاطس وسط + 3 كانز كولا.",
     originalPrice: 420,
     discountPrice: 320,
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const offersList: Offer[] = [
     originalPrice: 195,
     discountPrice: 150,
     code: "SPICY15",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
   },
 ];
 

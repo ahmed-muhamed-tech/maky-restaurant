@@ -253,7 +253,7 @@ export default function ChatClient() {
             repeatType: "reverse",
             ease: "linear",
           }}
-          src="/maky_logo.png"
+          src="/maky_logo.webp"
           alt="maky logo"
           className="w-16 h-16 drop-shadow-lg cursor-pointer"
         />

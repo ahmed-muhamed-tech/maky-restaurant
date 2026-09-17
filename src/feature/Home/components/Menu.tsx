@@ -38,7 +38,7 @@ const menuItems: MenuItem[] = [
     rating: 4.8,
     prepTime: "15 دقيقة",
     cals: "850 كالوري",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
     isPopular: true,
   },
   {
@@ -49,7 +49,7 @@ const menuItems: MenuItem[] = [
     rating: 4.9,
     prepTime: "25 دقيقة",
     cals: "2100 كالوري",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
     isPopular: true,
   },
   {
@@ -60,7 +60,7 @@ const menuItems: MenuItem[] = [
     rating: 4.6,
     prepTime: "12 دقيقة",
     cals: "650 كالوري",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
     isSpicy: true,
   },
   {
@@ -71,7 +71,7 @@ const menuItems: MenuItem[] = [
     rating: 4.9,
     prepTime: "5 دقائق",
     cals: "150 كالوري",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
   },
 ];
 

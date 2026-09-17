@@ -22,7 +22,7 @@ const characters: Character[] = [
     role: "الشيف الرئيسي",
     description:
       "عقل المطبخ والمبتكر للخلطات السرية. يمتلك خبرة 10 سنوات في ابتكار أطعمة البرجر المقرمش.",
-    image: "/char_1.png",
+    image: "/char_1.webp",
     icon: Flame,
     accentColor: "#F1531D",
   },
@@ -32,7 +32,7 @@ const characters: Character[] = [
     role: "خبير الصوصات",
     description:
       "مسؤول عن درجة الحرارة والنكهات القوية. محترف في صناعة بركان الشيدر وصوص الهلابينو.",
-    image: "/char_2.png",
+    image: "/char_2.webp",
     icon: Zap,
     accentColor: "#E11D48",
   },
@@ -42,7 +42,7 @@ const characters: Character[] = [
     role: "قائد التوصيل",
     description:
       "يضمن وصول طلبك ساخناً وطازجاً في وقت قياسي. يعرف كل اختصارات المدينة.",
-    image: "/char_3.png",
+    image: "/char_3.webp",
     icon: Shield,
     accentColor: "#10B981",
   },
@@ -52,7 +52,7 @@ const characters: Character[] = [
     role: "مسؤول الجودة",
     description:
       "يشرف على اختيار أفضل مكونات الدجاج والخضار الطازج يومياً لضمان أعلى معايير.",
-    image: "/char_4.png",
+    image: "/char_4.webp",
     icon: Sparkles,
     accentColor: "#8B5CF6",
   },
@@ -62,7 +62,7 @@ const characters: Character[] = [
     role: "مسؤول الجودة",
     description:
       "يشرف على اختيار أفضل مكونات الدجاج والخضار الطازج يومياً لضمان أعلى معايير.",
-    image: "/char_5.png",
+    image: "/char_5.webp",
     icon: Sparkles,
     accentColor: "#8B5CF6",
   },

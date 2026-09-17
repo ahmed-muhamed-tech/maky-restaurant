@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     title: "Maky Restaurant | مطعم ماكي",
     description:
       "الموقع الرسمي لمطعم ماكي - اكتشف المنيو المميز واطلب وجبتك المفضل الآن!",
-    url: "https://your-domain.com",
+    url: "https://maky-restaurant.vercel.app/",
     siteName: "Maky Restaurant",
     locale: "ar_EG",
     type: "website",
     images: [
       {
-        url: "/cover.png",
+        url: "/cover.webp",
         width: 1200,
         height: 630,
         alt: "Maky Restaurant Banner",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Maky Restaurant | مطعم ماكي",
     description:
       "الموقع الرسمي لمطعم ماكي - اكتشف المنيو المميز واطلب وجبتك المفضل الآن!",
-    images: ["/og-image.png"], // مسار الصورة داخل مجلد public
+    images: ["/cover.webp"], // مسار الصورة داخل مجلد public
   },
 };
 
@@ -63,9 +63,9 @@ export default function RootLayout({
         <div className="absolute bottom-1/3 left-10 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl pointer-events-none" />
         <Navbar />
         <ChatClient />
-        <SmoothScroll>
+        {/* <SmoothScroll> */}
           <div className="py-24 lg:py-0">{children}</div>
-        </SmoothScroll>
+        {/* </SmoothScroll> */}
         <Footer />
       </body>
     </html>

@@ -21,7 +21,7 @@ const menuItems: MenuItem[] = [
     rating: 4.9,
     description:
       "قطعتين دجاج مقرمش حار مع صوص الشيدر الذائب، خس طازج، وخيار مخلل في خبز البريوش الهش.",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
     isSpicy: true,
     isPopular: true,
   },
@@ -33,7 +33,7 @@ const menuItems: MenuItem[] = [
     rating: 4.8,
     description:
       "12 قطعة دجاج كريسبي مع البطاطس المقلية الحجم العائلي، 3 صوصات من اختيارك وخبز ناعم.",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
     isPopular: true,
   },
   {
@@ -44,7 +44,7 @@ const menuItems: MenuItem[] = [
     rating: 4.7,
     description:
       "صدر دجاج مقرمش ذهبي مع صوص ماكي الخاص، المايونيز بالثوم، والشرائح الطازجة.",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const menuItems: MenuItem[] = [
     rating: 4.9,
     description:
       "جبنة شيدر غنية ومذابة مع قطع الهلابينو الحارة لإضافة نكهة قوية لوجبتك.",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
     isSpicy: true,
   },
   {
@@ -65,7 +65,7 @@ const menuItems: MenuItem[] = [
     rating: 4.6,
     description:
       "ساندوتش دجاج صغير مع بطاطس، عصير طازج، ولعبة هدايا من شخصيات ماكي.",
-    image: "/maky_logo.png",
+    image: "/maky_logo.webp",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ const menuItems: MenuItem[] = [
     price: 35,
     rating: 4.5,
     description: "برتقال طبيعي 100% بدون إضافات سكر، منعش مع الوجبات المقرمشة.",
-    image: "/char_maky_2.png",
+    image: "/char_maky_2.webp",
   },
 ];
 
