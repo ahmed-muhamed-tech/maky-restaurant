@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Button from "../UI/Button";
 import { ShoppingCart } from "lucide-react";
+import ContainerSection from "../ContainerSection";
 
 const navLinks = [
   {
@@ -34,8 +35,13 @@ export default function Navbar() {
   const path = usePathname();
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 h-24 bg-white/20 backdrop-blur-md border-b border-slate-100 z-50 flex items-center justify-between px-6 md:px-12">
-        <div className="flex items-center gap-4">
+      <header className="fixed top-0 w-full left-0 right-0 h-24 bg-white/20 backdrop-blur-md border-b border-slate-100 z-50">
+       
+
+       <ContainerSection>
+
+        <div className=" flex items-center justify-between ">
+           <div className="flex items-center gap-4">
           <img src="/maky_logo.webp" alt="maky logo" className="w-12 h-12 " />
           <span className="text-3xl font-extrabold tracking-tight text-slate-900">
             MAKY
@@ -63,6 +69,8 @@ export default function Navbar() {
           />
           <MenuIcon openMenu={openMenu} toggle={() => setOpenMenu(!openMenu)} />
         </div>
+        </div>
+       </ContainerSection>
       </header>
 
       {openMenu && (
