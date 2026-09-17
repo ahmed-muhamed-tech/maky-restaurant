@@ -108,7 +108,7 @@ export default function ChatClient() {
   };
 
   return (
-    <div className="fixed z-50 right-10 bottom-10 flex flex-col items-end gap-3">
+    <div className="fixed z-50 right-3 bottom-3  lg:right-10 lg:bottom-10 flex flex-col items-end gap-3">
       {/* ------------------- نافذة الشات عند الفتح ------------------- */}
       <AnimatePresence>
         {openChat && (
