@@ -57,7 +57,7 @@ export default function RootLayout({
       dir="rtl"
       className={`${CairoFont.variable}  scrollbar-none h-full`}
     >
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased overflow-x-hidden">
         {/* خلفيات ضوئية ناعمة */}
         <div className="absolute top-10 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-1/3 left-10 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl pointer-events-none" />

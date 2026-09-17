@@ -59,6 +59,7 @@ export default function Navbar() {
             title="السلة (3)"
             iconLeft={<ShoppingCart className="w-5 h-5" />}
             color="bg-slate-900 hover:bg-slate-800 text-white "
+            className=" py-1 px-2 rounded-xl text-sm lg:text-lg items-center flex  gap-2"
           />
           <MenuIcon openMenu={openMenu} toggle={() => setOpenMenu(!openMenu)} />
         </div>
