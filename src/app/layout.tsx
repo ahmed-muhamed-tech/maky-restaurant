@@ -59,8 +59,8 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased overflow-x-hidden">
         {/* خلفيات ضوئية ناعمة */}
-        <div className="absolute top-10 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-1/3 left-10 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-10 right-10  lg:w-96 w-40 h-40  lg:h-96  bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-1/3 left-10  lg:w-80 w-40 h-40  lg:h-80 bg-orange-200/20 rounded-full blur-3xl pointer-events-none" />
         <Navbar />
         <ChatClient />
         {/* <SmoothScroll> */}
