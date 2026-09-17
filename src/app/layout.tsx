@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "الموقع الرسمي لمطعم ماكي - اكتشف المنيو المميز واطلب وجبتك المفضل الآن!",
 
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://maky-restaurant.vercel.app/"),
 
   openGraph: {
     title: "Maky Restaurant | مطعم ماكي",
