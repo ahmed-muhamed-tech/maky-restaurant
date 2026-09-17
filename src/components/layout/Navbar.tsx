@@ -30,7 +30,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
   const path = usePathname();
   return (
     <>
